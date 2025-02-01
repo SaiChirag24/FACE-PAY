@@ -27,25 +27,6 @@ OpenCV (Facial recognition and image processing)
 NumPy (Efficient array processing for machine learning)
 Raspberry Pi GPIO (Interfacing with hardware components)
 
-)
-🔹 Installation & Setup
-1️⃣ Clone the repository:
-
-git clone https://github.com/yourusername/FacePay.git
-cd FacePay
-2️⃣ Install dependencies:
-
-
-pip install opencv-python numpy RPi.GPIO
-3️⃣ Enable Raspberry Pi Camera:
-
-
-sudo raspi-config
-# Navigate to Interfacing Options → Enable Camera → Reboot
-4️⃣ Run the system:
-
-python facepay.py
-
 🔹 How It Works
 User stands in front of the Pi Camera for facial recognition.
 If face matches the database, the system prompts for passkey entry on the keypad.
